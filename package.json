@@ -1,0 +1,30 @@
+{
+  "name": "calculator-pwa",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc && vite build",
+    "dev": "vite",
+    "serve": "serve -s dist -l 4000",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "register-service-worker": "^1.7.2",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-pwa": "^0.19.8",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.6"
+  },
+  "type": "module"
+}
