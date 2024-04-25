@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto h-screen max-w-[350px] flex flex-col overflow-hidden bg-bgColor-light dark:bg-bgColor-dark duration-200"
+    class="mx-auto h-screen max-w-[400px] flex flex-col overflow-hidden bg-bgColor-light dark:bg-bgColor-dark duration-200"
   >
     <div
       id="actions"
