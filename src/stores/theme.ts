@@ -13,4 +13,5 @@ export const useThemeStore = defineStore("theme", {
       this.theme = value;
     },
   },
+  persist: true,
 });
